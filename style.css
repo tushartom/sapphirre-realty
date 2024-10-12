@@ -9,8 +9,10 @@ a {
   text-decoration: none;
   color: inherit;
 }
+html,
 body {
   font-family: "Afacad Flux", sans-serif;
+  position: relative;
 }
 header {
   height: 150px;
@@ -29,11 +31,12 @@ img {
   background-color: #f5f5de;
   font-size: 2rem;
   text-align: center;
-  padding-block: 2rem;
+  padding-block: 4rem;
   font-weight: 600;
 }
 .contact-info {
   padding: 2.5rem 1.5rem;
+  font-size: 1.2rem;
 }
 
 .contact-info h2 {
@@ -54,4 +57,16 @@ img {
 }
 .address {
   font-weight: 500;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-block: 1rem;
+  font-size: 0.9rem;
 }
